@@ -1,3 +1,11 @@
+---
+layout: default
+title: "Troubleshooting"
+parent: "Reference"
+nav_order: 3
+description: "Common issues and solutions for QuadB64 implementation and usage"
+---
+
 # Troubleshooting Guide
 
 ## Quick Diagnostic Checklist

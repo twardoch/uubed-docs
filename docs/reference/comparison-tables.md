@@ -1,3 +1,11 @@
+---
+layout: default
+title: "Comparison Tables"
+parent: "Reference"
+nav_order: 1
+description: "Comprehensive comparison tables between QuadB64 and traditional Base64 across multiple dimensions"
+---
+
 # Comprehensive Comparison: QuadB64 vs Traditional Base64
 
 ## Executive Summary

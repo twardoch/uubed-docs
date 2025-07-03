@@ -1,3 +1,11 @@
+---
+layout: default
+title: "Migration Guide"
+parent: "Reference"
+nav_order: 2
+description: "Complete migration guide from Base64 to QuadB64 with step-by-step instructions and best practices"
+---
+
 # Migration Guide: From Base64 to QuadB64
 
 ## Overview

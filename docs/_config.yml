@@ -76,6 +76,7 @@ exclude:
   - README.md
   - Rakefile
   - docs/tests/
+  - vendor/
 
 # Permalink structure
 permalink: pretty

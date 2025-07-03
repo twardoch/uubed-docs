@@ -1,3 +1,11 @@
+---
+layout: default
+title: "Family Overview"
+parent: "QuadB64 Family"
+nav_order: 1
+description: "Overview of the QuadB64 family of encodings and their use cases"
+---
+
 # The QuadB64 Family: A Suite of Position-Safe Encodings
 
 ## Overview
