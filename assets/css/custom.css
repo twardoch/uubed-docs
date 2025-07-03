@@ -1,0 +1,113 @@
+/* Custom styles for UUBED documentation */
+
+/* Navigation */
+.site-nav {
+  margin: 0 0 2rem 0;
+  padding: 1rem 0;
+  border-bottom: 1px solid #eff0f1;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.site-nav a {
+  color: #1e6bb8;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+.site-nav a:hover {
+  text-decoration: underline;
+}
+
+/* Override Cayman theme for better navigation visibility */
+.main-content {
+  padding-top: 2rem;
+}
+
+/* Code blocks */
+pre {
+  background-color: #f6f8fa;
+  border-radius: 6px;
+  padding: 16px;
+  overflow: auto;
+}
+
+code {
+  background-color: rgba(27,31,35,.05);
+  border-radius: 3px;
+  font-size: 85%;
+  margin: 0;
+  padding: .2em .4em;
+}
+
+pre code {
+  background-color: transparent;
+  border: 0;
+  display: inline;
+  line-height: inherit;
+  margin: 0;
+  overflow: visible;
+  padding: 0;
+  word-wrap: normal;
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1em 0;
+}
+
+table th,
+table td {
+  padding: 6px 13px;
+  border: 1px solid #dfe2e5;
+}
+
+table tr {
+  background-color: #fff;
+  border-top: 1px solid #dfe2e5;
+}
+
+table tr:nth-child(2n) {
+  background-color: #f6f8fa;
+}
+
+/* Alerts and notes */
+.note {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #eee;
+  border-left-width: 5px;
+  border-radius: 3px;
+  border-left-color: #1b809e;
+  background-color: #f0f7fd;
+}
+
+.warning {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #eee;
+  border-left-width: 5px;
+  border-radius: 3px;
+  border-left-color: #ce4844;
+  background-color: #fdf7f7;
+}
+
+.tip {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #eee;
+  border-left-width: 5px;
+  border-radius: 3px;
+  border-left-color: #5cb85c;
+  background-color: #f1f9f1;
+}
+
+/* Footer */
+.footer {
+  margin-top: 50px;
+  padding-top: 20px;
+  color: #586069;
+  font-size: 12px;
+}
