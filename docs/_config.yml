@@ -1,4 +1,6 @@
 title: UUBED Documentation
 description: High-performance, position-safe embedding encoding library
 baseurl: "/uubed-docs"
+url: "https://twardoch.github.io"
+repository: twardoch/uubed-docs
 theme: jekyll-theme-cayman
