@@ -1,3 +1,11 @@
+---
+layout: default
+title: Performance Tuning
+parent: Performance
+nav_order: 2
+description: "Comprehensive strategies to maximize QuadB64 performance in production environments with native extensions, batch processing, and optimization techniques."
+---
+
 # Performance Tuning Guide
 
 ## Overview

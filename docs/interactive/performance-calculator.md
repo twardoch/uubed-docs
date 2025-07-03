@@ -1,3 +1,11 @@
+---
+layout: default
+title: Performance Calculator
+parent: Interactive Tools
+nav_order: 4
+description: "Interactive calculator for estimating QuadB64 performance benefits and cost analysis for your specific use case"
+---
+
 # Performance Calculator
 
 ## Interactive Performance Analysis Tool

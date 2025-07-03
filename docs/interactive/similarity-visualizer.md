@@ -1,3 +1,11 @@
+---
+layout: default
+title: Similarity Visualizer
+parent: Interactive Tools
+nav_order: 3
+description: "Interactive tool for visualizing how QuadB64 variants preserve similarity relationships while preventing substring pollution"
+---
+
 # Similarity Visualizer
 
 ## Interactive Similarity Preservation Demo

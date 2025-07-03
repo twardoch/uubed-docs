@@ -1,3 +1,11 @@
+---
+layout: default
+title: Comparison Tables
+parent: Interactive Tools
+nav_order: 5
+description: "Comprehensive comparison tables between QuadB64 variants and Base64 across performance, features, and use cases"
+---
+
 # QuadB64 vs Base64: Detailed Comparison Tables
 
 ## Encoding Comparison Matrix

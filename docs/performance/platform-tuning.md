@@ -1,3 +1,11 @@
+---
+layout: default
+title: Platform-Specific Tuning
+parent: Performance
+nav_order: 3
+description: "Detailed optimization strategies for different operating systems, CPU architectures, and cloud environments to maximize QuadB64 performance."
+---
+
 # Platform-Specific Performance Tuning
 
 ## Overview
