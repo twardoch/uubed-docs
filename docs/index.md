@@ -1,3 +1,9 @@
+---
+layout: default
+title: The QuadB64 Codex
+description: Position-Safe Encoding for Substring-Based Search Systems
+---
+
 # The QuadB64 Codex
 
 ## Position-Safe Encoding for Substring-Based Search Systems

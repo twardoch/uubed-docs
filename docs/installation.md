@@ -1,3 +1,9 @@
+---
+layout: page
+title: Installation Guide
+description: How to install UUBED on your system
+---
+
 # Installation Guide
 
 ## System Requirements

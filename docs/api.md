@@ -1,3 +1,9 @@
+---
+layout: page
+title: API Reference
+description: Complete API documentation for UUBED
+---
+
 # API Reference
 
 ## Main Functions
