@@ -1,9 +1,8 @@
 ---
-title: Installation Guide
-keywords: installation, setup, requirements, dependencies
-sidebar: home_sidebar
-permalink: installation.html
-summary: Comprehensive installation guide for UUBED, including system requirements, dependencies, and platform-specific instructions.
+layout: default
+title: Installation
+nav_order: 3
+description: "Comprehensive installation guide for UUBED, including system requirements, dependencies, and platform-specific instructions."
 ---
 
 TLDR: This guide tells you how to get QuadB64 up and running on your computer. It covers everything from basic setup to supercharging it with native extensions for maximum speed. Think of it as assembling your high-performance data-encoding race car.

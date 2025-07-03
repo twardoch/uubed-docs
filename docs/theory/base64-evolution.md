@@ -1,4 +1,18 @@
+---
+layout: default
+title: Base64 Evolution
+parent: Theory
+nav_order: 3
+description: "The journey from Base64 to QuadB64, examining why Base64 succeeded for decades and why it now needs to evolve for modern AI-scale search systems."
+---
+
+TLDR: Base64 was great for its time, like a trusty old horse-drawn carriage. But in today's super-fast, AI-driven world, it's causing traffic jams and confusion, especially in search engines. QuadB64 is the modern, high-tech solution that fixes these problems by making data smarter and searches cleaner.
+
 # The Evolution from Base64 to QuadB64
+
+Imagine Base64 as the trusty old horse-drawn carriage of data encoding. It was revolutionary in its day, perfectly suited for leisurely trips across the digital countryside (email attachments). But now, we're in the era of supersonic jets and hyperloop trains (AI-scale search and vector databases), and that carriage is causing massive traffic jams and accidental collisions.
+
+Imagine you're a historian, tracing the lineage of digital communication. Base64 is a venerable ancestor, born from the simple necessity of sending binary doves through ASCII-only mail slots. This chapter chronicles its rise, its reign, and its eventual encounter with the relentless march of progress, which revealed its hidden Achilles' heel in the age of ubiquitous search.
 
 ## A Journey from Email Attachments to AI-Scale Search
 

@@ -1,9 +1,8 @@
 ---
-title: Basic Usage Guide
-keywords: usage, examples, guide, tutorial
-sidebar: home_sidebar
-permalink: basic-usage.html
-summary: Essential patterns and common operations for using the uubed library effectively in your applications.
+layout: default
+title: Basic Usage
+nav_order: 4
+description: "Essential patterns and common operations for using the uubed library effectively in your applications."
 ---
 
 TLDR: This guide is your quick-start manual for using QuadB64. It shows you how to encode and decode different types of data, from simple text to complex AI embeddings, and how to make sure it runs super fast. Think of it as learning the secret handshake to a club that keeps your data safe and speedy.

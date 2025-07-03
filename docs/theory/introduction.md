@@ -1,10 +1,9 @@
 ---
-title: Introduction - The Substring Pollution Problem
-keywords: theory, substring pollution, base64, search
-sidebar: theory_sidebar
-permalink: theory_introduction.html
-folder: theory
-summary: Understanding the hidden cost of Base64 in modern search systems and how QuadB64 solves the substring pollution problem.
+layout: default
+title: Introduction
+parent: Theory
+nav_order: 1
+description: "Understanding the hidden cost of Base64 in modern search systems and how QuadB64 solves the substring pollution problem."
 ---
 
 TLDR: Base64, our old friend for turning binary data into text, is causing chaos in modern search engines and AI systems. It creates "substring pollution" where unrelated data accidentally matches, leading to bad search results and security headaches. QuadB64 is here to fix that by making every encoded piece of data uniquely identifiable by its position.

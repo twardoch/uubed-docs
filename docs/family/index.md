@@ -1,10 +1,9 @@
 ---
-title: QuadB64 Encoding Family
-keywords: encoding, family, eq64, shq64, t8q64, zoq64
-sidebar: family_sidebar
-permalink: family_index.html
-folder: family
-summary: Overview of all encoding methods in the QuadB64 family, their characteristics, and use cases.
+layout: default
+title: Encoding Family
+nav_order: 7
+has_children: true
+description: "Overview of all encoding methods in the QuadB64 family, their characteristics, and use cases."
 ---
 
 TLDR: The QuadB64 family is like a superhero team of encodings, each with a unique power to solve specific data problems while always preventing accidental matches. Whether you need to perfectly preserve data, find similar items, or map locations, there's a QuadB64 hero for the job.

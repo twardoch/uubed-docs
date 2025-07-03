@@ -1,4 +1,18 @@
+---
+layout: default
+title: QuadB64 Fundamentals
+parent: Theory
+nav_order: 2
+description: "Mathematical foundations of position-safe encoding theory, exploring how QuadB64 embeds positional information directly into the encoding to prevent substring pollution."
+---
+
+TLDR: This chapter dives into the secret sauce of QuadB64: how it uses math to make sure every piece of encoded data is unique to its position. It's like giving every character a GPS coordinate within the encoded string, so there's no more accidental matching. This makes your searches super precise and keeps your data safe from digital identity theft.
+
 # Chapter 2: QuadB64 Fundamentals - Position-Safe Encoding Theory
+
+Imagine you're building a massive, intricate LEGO castle, and every single brick has a unique serial number that also tells you its exact position in the structure. This chapter is the instruction manual for that LEGO system, explaining the fundamental rules that ensure no two bricks (or data bits) can ever be confused, no matter how similar they look.
+
+Imagine you're a master cryptographer, and your goal is to create a code where even if someone intercepts a small part of your message, they can't use it to find other, unrelated messages. This chapter reveals the mathematical secrets behind QuadB64, showing how it embeds positional information directly into the encoding, making every fragment uniquely identifiable and preventing any accidental cross-contamination.
 
 ## The Mathematical Foundation of Position Safety
 

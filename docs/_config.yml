@@ -1,11 +1,51 @@
+# Site settings
 title: The QuadB64 Codex
 description: Position-Safe Encoding for Substring-Based Search Systems
 baseurl: "/uubed-docs"
 url: "https://twardoch.github.io"
 repository: twardoch/uubed-docs
 
-# Use the documentation theme
-remote_theme: tomjoht/documentation-theme-jekyll
+# Remote theme
+remote_theme: just-the-docs/just-the-docs
+
+# Logo (optional)
+logo: "/assets/images/logo.png"
+
+# Color scheme
+color_scheme: light
+
+# Search
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 2
+  preview_words_before: 3
+  preview_words_after: 3
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+  button: false
+
+# Navigation
+nav_enabled: true
+
+# Heading anchor links
+heading_anchors: true
+
+# Aux links for the upper right navigation
+aux_links:
+  "GitHub Repository":
+    - "https://github.com/twardoch/uubed-docs"
+  "View on PyPI":
+    - "https://pypi.org/project/uubed/"
+
+# Makes Aux links open in a new tab
+aux_links_new_tab: true
+
+# Footer content
+footer_content: "Copyright &copy; 2024 UUBED Project. Distributed under the <a href=\"https://github.com/twardoch/uubed-docs/blob/main/LICENSE\">MIT License</a>."
+
+# Google Analytics
+ga_tracking: ""
 
 # Plugins
 plugins:
@@ -13,69 +53,49 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-# Theme settings
-topnav_title: QuadB64 Codex
-site_title: QuadB64 Documentation
-company_name: UUBED Project
-github_editme_path: twardoch/uubed-docs/blob/main/docs/
-google_analytics: 
-disqus_shortname: 
-search: true
-
-# Sidebar configuration
-sidebars:
-- home_sidebar
-- theory_sidebar
-- family_sidebar
-- implementation_sidebar
-
-# Output
-permalink: pretty
-output: web
-
 # Build settings
 markdown: kramdown
 kramdown:
-  input: GFM
-  auto_ids: true
-  hard_wrap: false
-  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
 
-highlighter: rouge
-
-# Collections
-collections:
-  tooltips:
-    output: false
-
-# Defaults
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "page"
-      search: true
-      sidebar: home_sidebar
-      topnav: topnav
-  - scope:
-      path: "theory"
-      type: "pages"
-    values:
-      sidebar: theory_sidebar
-  - scope:
-      path: "family"
-      type: "pages"
-    values:
-      sidebar: family_sidebar
-  - scope:
-      path: "implementation"
-      type: "pages"
-    values:
-      sidebar: implementation_sidebar
-
-# Exclude from build
+# Exclude from processing
 exclude:
-- .idea/
-- .gitignore
-- vendor
+  - node_modules/
+  - "*.gemspec"
+  - "*.gem"
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - package-lock.json
+  - script/
+  - LICENSE.txt
+  - lib/
+  - bin/
+  - README.md
+  - Rakefile
+  - docs/tests/
+
+# Permalink structure
+permalink: pretty
+
+# Enable copy button on code blocks
+enable_copy_code_button: true
+
+# Call-outs (optional, for enhanced formatting)
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red

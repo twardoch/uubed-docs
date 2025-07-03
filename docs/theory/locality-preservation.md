@@ -1,4 +1,18 @@
+---
+layout: default
+title: Locality Preservation
+parent: Theory
+nav_order: 4
+description: "Mathematical foundations of locality preservation in QuadB64, showing how similar data remains similar after encoding for improved search and AI applications."
+---
+
+TLDR: Locality preservation is QuadB64's superpower that keeps similar data looking similar even after encoding. This means if two things are close in the real world (or in your data), their encoded versions will also be close, making searches and AI tasks much smarter and more efficient.
+
 # Chapter 4: Locality Preservation - Mathematical Foundations
+
+Imagine you're organizing a massive library, and instead of just putting books on shelves randomly, you arrange them so that books on similar topics are always next to each other, no matter how you categorize them. This chapter explains the mathematical magic behind QuadB64 that allows it to do just that for your data, preserving its natural relationships.
+
+Imagine you're a master chef, and you have a secret technique that ensures all your ingredients, even after being chopped, blended, and cooked, still retain their original flavor profiles and how they interact with each other. This chapter reveals the underlying principles that allow QuadB64 to maintain the essence of your data, even after it's been transformed into a new format.
 
 ## The Principle of Locality in Encoding
 
