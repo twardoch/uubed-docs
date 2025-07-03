@@ -57,7 +57,7 @@ entries:
     output: web
     folderitems:
     - title: Overview
-      url: /family/
+      url: /family/index
       output: web
     - title: Eq64 Encoding
       url: /family/eq64

@@ -1,3 +1,11 @@
+---
+title: Basic Usage Guide
+keywords: usage, examples, guide, tutorial
+sidebar: home_sidebar
+permalink: basic-usage.html
+summary: Essential patterns and common operations for using the uubed library effectively in your applications.
+---
+
 # Basic Usage Guide
 
 ## Getting Started with uubed

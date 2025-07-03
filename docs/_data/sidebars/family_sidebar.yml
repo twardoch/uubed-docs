@@ -11,7 +11,7 @@ entries:
       url: /index
       output: web
     - title: Encoding Family Overview
-      url: /family/
+      url: /family/index
       output: web
 
   - title: Encoding Schemes
