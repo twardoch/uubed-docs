@@ -1,3 +1,11 @@
+---
+title: "Research Directions and Future Work"
+layout: default
+parent: "Advanced Topics"
+nav_order: 1
+description: "Explore cutting-edge research directions for QuadB64, including Matryoshka embeddings integration, quantum computing applications, and next-generation encoding techniques representing the frontier of position-safe encoding research."
+---
+
 # Research Directions and Future Work
 
 ## Overview

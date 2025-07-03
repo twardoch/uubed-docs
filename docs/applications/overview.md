@@ -1,3 +1,10 @@
+---
+title: "Real-World Applications: QuadB64 in Production"
+parent: "Applications"
+nav_order: 1
+description: "Explore how QuadB64 solves real-world problems across industries including search engines, AI systems, content management, e-commerce, and healthcare - with concrete examples and measurable improvements."
+---
+
 # Real-World Applications: QuadB64 in Production
 
 ## Overview

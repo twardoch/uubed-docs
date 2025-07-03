@@ -1,3 +1,11 @@
+---
+layout: default
+title: Encoder Demo
+parent: Interactive Tools
+nav_order: 2
+description: "Live demo of QuadB64 encoding with real-time analysis and step-by-step process visualization"
+---
+
 # Interactive QuadB64 Encoder/Decoder
 
 ## Live Demo

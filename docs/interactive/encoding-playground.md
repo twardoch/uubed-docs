@@ -1,3 +1,11 @@
+---
+layout: default
+title: Encoding Playground
+parent: Interactive Tools
+nav_order: 1
+description: "Interactive playground for experimenting with QuadB64 encoding and comparing position-dependent alphabets"
+---
+
 # QuadB64 Interactive Encoding Playground
 
 ## Overview
