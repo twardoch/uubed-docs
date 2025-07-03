@@ -1,0 +1,145 @@
+/* Custom styles for The QuadB64 Codex */
+
+/* Math rendering */
+.arithmatex {
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+/* Code blocks */
+.highlight {
+  margin-bottom: 1em;
+}
+
+/* Custom admonition for encoding examples */
+.admonition.encoding {
+  border-left-color: #7c4dff;
+}
+
+.admonition.encoding > .admonition-title {
+  background-color: rgba(124, 77, 255, 0.1);
+  border-left-color: #7c4dff;
+}
+
+.admonition.encoding > .admonition-title::before {
+  content: "🔤";
+  margin-right: 0.5em;
+}
+
+/* Performance benchmark tables */
+.benchmark-table {
+  font-family: var(--md-code-font-family);
+  font-size: 0.85em;
+}
+
+.benchmark-table td:nth-child(n+2),
+.benchmark-table th:nth-child(n+2) {
+  text-align: right;
+}
+
+/* Encoding visualization */
+.encoding-viz {
+  display: flex;
+  gap: 0.5em;
+  margin: 1em 0;
+  font-family: var(--md-code-font-family);
+}
+
+.encoding-viz .position {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.25em;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 4px;
+}
+
+.encoding-viz .position .index {
+  font-size: 0.7em;
+  color: var(--md-default-fg-color--light);
+}
+
+.encoding-viz .position .char {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+/* Grid layout for feature cards */
+.grid.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.grid.cards > div {
+  padding: 1.5rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  transition: box-shadow 0.2s;
+}
+
+.grid.cards > div:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Algorithm comparison table */
+.algorithm-comparison {
+  width: 100%;
+  margin: 2em 0;
+}
+
+.algorithm-comparison th {
+  background-color: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+  font-weight: bold;
+}
+
+.algorithm-comparison tr:nth-child(even) {
+  background-color: var(--md-default-fg-color--lightest);
+}
+
+/* Interactive examples */
+.interactive-example {
+  border: 2px dashed var(--md-default-fg-color--lighter);
+  border-radius: 8px;
+  padding: 1.5em;
+  margin: 1.5em 0;
+  background-color: var(--md-code-bg-color);
+}
+
+.interactive-example input,
+.interactive-example textarea {
+  width: 100%;
+  padding: 0.5em;
+  margin: 0.5em 0;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 4px;
+  font-family: var(--md-code-font-family);
+}
+
+/* API reference styling */
+.doc-class {
+  margin: 2em 0;
+  padding: 1em;
+  border-left: 4px solid var(--md-primary-fg-color);
+  background-color: var(--md-default-fg-color--lightest);
+}
+
+.doc-method {
+  margin: 1em 0;
+  padding: 0.5em 1em;
+  border-left: 2px solid var(--md-accent-fg-color);
+}
+
+/* Version badge */
+.md-header__version {
+  display: inline-block;
+  padding: 0.2em 0.5em;
+  margin-left: 0.5em;
+  background-color: var(--md-accent-fg-color);
+  color: var(--md-accent-bg-color);
+  border-radius: 4px;
+  font-size: 0.8em;
+  font-weight: bold;
+}

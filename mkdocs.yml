@@ -1,0 +1,223 @@
+site_name: The QuadB64 Codex
+site_description: Position-safe encoding for substring-based search systems
+site_author: uubed Contributors
+site_url: https://uubed.readthedocs.io
+
+repo_name: twardoch/uubed
+repo_url: https://github.com/twardoch/uubed
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: en
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to auto mode
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select
+    - content.tabs.link
+    - content.tooltips
+    - header.autohide
+    - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.path
+    - navigation.prune
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    - toc.integrate
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    logo: material/code-braces-box
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Quick Start: quickstart.md
+    - Installation: installation.md
+    - Basic Usage: basic-usage.md
+  - Theory:
+    - Introduction: theory/introduction.md
+    - Base64 Evolution: theory/base64-evolution.md
+    - QuadB64 Fundamentals: theory/quadb64-fundamentals.md
+    - Locality Preservation: theory/locality-preservation.md
+    - Visual Diagrams: theory/visual-diagrams.md
+  - QuadB64 Family:
+    - Overview: family/overview.md
+    - Eq64: family/eq64.md
+    - Shq64: family/shq64.md
+    - T8q64: family/t8q64.md
+    - Zoq64: family/zoq64.md
+  - Performance:
+    - Optimization Guide: performance/optimization.md
+    - Benchmarks & Comparisons: reference/benchmarks.md
+    - Platform-Specific Tuning: performance/platform-tuning.md
+  - Applications:
+    - Real-World Examples: applications/overview.md
+    - Search Engines: applications/search-engines.md
+    - Vector Databases: applications/vector-databases.md
+    - Content Management: applications/cms.md
+    - E-commerce: applications/ecommerce.md
+  - Reference:
+    - API Reference: api.md
+    - Migration from Base64: reference/migration.md
+    - Configuration Options: reference/configuration.md
+    - Troubleshooting: reference/troubleshooting.md
+  - Interactive:
+    - Encoding Playground: interactive/encoding-playground.md
+    - Comparison Tables: interactive/comparison-tables.md
+  - Advanced:
+    - Implementation Details: implementation/architecture.md
+    - Native Extensions: implementation/native-extensions.md
+    - Custom Variants: implementation/custom-variants.md
+    - Research & Future Work: advanced/research.md
+  - Contributing:
+    - Development Setup: contributing/setup.md
+    - Guidelines: contributing/guidelines.md
+    - Code of Conduct: contributing/code-of-conduct.md
+
+plugins:
+  - search:
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - minify:
+      minify_html: true
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: timeago
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            show_source: true
+            show_root_heading: true
+            show_root_full_path: false
+            show_symbol_type_heading: true
+            show_symbol_type_toc: true
+            show_category_heading: true
+            show_bases: true
+            show_if_no_docstring: false
+            show_signature: true
+            show_signature_annotations: true
+            separate_signature: true
+            line_length: 80
+            merge_init_into_class: true
+            docstring_style: google
+            docstring_section_style: spacy
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      normalize_issue_symbols: true
+      repo_url_shorthand: true
+      user: twardoch
+      repo: uubed
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra:
+  version:
+    provider: mike
+    default: stable
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/twardoch/uubed
+    - icon: fontawesome/brands/python
+      link: https://pypi.org/project/uubed/
+  analytics:
+    provider: google
+    property: !ENV GOOGLE_ANALYTICS_KEY
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >-
+            Thanks for your feedback! Help us improve this page by
+            using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+extra_css:
+  - stylesheets/extra.css
