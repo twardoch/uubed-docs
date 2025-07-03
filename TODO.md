@@ -24,3 +24,7 @@
 - [ ] Doc file links to targets not found among documentation files (e.g., `index.md` links to `contributing/guidelines.md`, `basic-usage.md` links to `advanced-features.md`).
 - [ ] Doc files contain unrecognized relative links (multiple occurrences in `404.md`, `advanced.md`, `applications.md`, `implementation.md`, `interactive.md`, `performance.md`, `family/index.md`, `theory/index.md`).
 - [ ] Doc file `reference/benchmarks.md` contains an absolute link.
+- [ ] Investigate and resolve `SyntaxWarning` and `DeprecationWarning` messages during build.
+- [ ] Address `README.md` conflict with `index.md`.
+- [ ] Ensure all relevant pages are included in the `nav` configuration.
+- [ ] Fix all broken and unrecognized links in documentation files.
