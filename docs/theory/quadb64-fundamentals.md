@@ -6,7 +6,7 @@ nav_order: 2
 description: "Mathematical foundations of position-safe encoding theory, exploring how QuadB64 embeds positional information directly into the encoding to prevent substring pollution."
 ---
 
-TLDR: This chapter dives into the secret sauce of QuadB64: how it uses math to make sure every piece of encoded data is unique to its position. It's like giving every character a GPS coordinate within the encoded string, so there's no more accidental matching. This makes your searches super precise and keeps your data safe from digital identity theft.
+> This chapter dives into the secret sauce of QuadB64: how it uses math to make sure every piece of encoded data is unique to its position. It's like giving every character a GPS coordinate within the encoded string, so there's no more accidental matching. This makes your searches super precise and keeps your data safe from digital identity theft.
 
 # Chapter 2: QuadB64 Fundamentals - Position-Safe Encoding Theory
 

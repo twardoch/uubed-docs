@@ -5,7 +5,7 @@ nav_order: 8
 description: "Latest news, updates, and release announcements for the QuadB64 project."
 ---
 
-TLDR: This is where we spill the beans on all things QuadB64! Get the scoop on our latest releases, what cool features are coming next, and how you can join our awesome community. It's like your favorite tech blog, but with more position-safe encoding.
+> This is where we spill the beans on all things QuadB64! Get the scoop on our latest releases, what cool features are coming next, and how you can join our awesome community. It's like your favorite tech blog, but with more position-safe encoding.
 
 # News and Updates
 

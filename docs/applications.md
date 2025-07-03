@@ -6,7 +6,7 @@ has_children: true
 description: "Real-world applications and use cases for QuadB64 encodings across different industries and domains."
 ---
 
-TLDR: This section is your showcase of how QuadB64 is changing the game in various industries. From making search engines smarter to securing sensitive data, you'll find concrete examples of how position-safe encoding solves real-world problems and delivers measurable improvements.
+> This section is your showcase of how QuadB64 is changing the game in various industries. From making search engines smarter to securing sensitive data, you'll find concrete examples of how position-safe encoding solves real-world problems and delivers measurable improvements.
 
 # Applications & Use Cases
 

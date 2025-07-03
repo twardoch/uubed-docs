@@ -6,7 +6,7 @@ nav_order: 2
 description: "Comprehensive strategies to maximize QuadB64 performance in production environments with native extensions, batch processing, and optimization techniques."
 ---
 
-TLDR: This guide is your ultimate cheat sheet for making QuadB64 run at lightning speed. It covers everything from installing the right bits to fine-tuning your code, ensuring your data encoding is as fast as a cheetah on a caffeine high.
+> This guide is your ultimate cheat sheet for making QuadB64 run at lightning speed. It covers everything from installing the right bits to fine-tuning your code, ensuring your data encoding is as fast as a cheetah on a caffeine high.
 
 # Performance Tuning Guide
 

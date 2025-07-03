@@ -6,7 +6,7 @@ nav_order: 4
 description: "Interactive calculator for estimating QuadB64 performance benefits and cost analysis for your specific use case"
 ---
 
-TLDR: This calculator is your crystal ball for seeing how QuadB64 will supercharge your system! Just tell it about your data and hardware, and it'll predict how much faster, smarter, and more efficient your operations will become, helping you justify that sweet, sweet upgrade.
+> This calculator is your crystal ball for seeing how QuadB64 will supercharge your system! Just tell it about your data and hardware, and it'll predict how much faster, smarter, and more efficient your operations will become, helping you justify that sweet, sweet upgrade.
 
 # Performance Calculator
 

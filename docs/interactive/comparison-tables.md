@@ -6,7 +6,7 @@ nav_order: 5
 description: "Comprehensive comparison tables between QuadB64 variants and Base64 across performance, features, and use cases"
 ---
 
-TLDR: This page is your ultimate cheat sheet for understanding the superpowers of QuadB64 compared to old-school Base64. It breaks down everything from speed and accuracy to how each variant tackles different data challenges, helping you pick the perfect encoding tool for your digital arsenal.
+> This page is your ultimate cheat sheet for understanding the superpowers of QuadB64 compared to old-school Base64. It breaks down everything from speed and accuracy to how each variant tackles different data challenges, helping you pick the perfect encoding tool for your digital arsenal.
 
 # QuadB64 vs Base64: Detailed Comparison Tables
 

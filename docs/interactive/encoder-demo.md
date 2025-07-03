@@ -6,7 +6,7 @@ nav_order: 2
 description: "Live demo of QuadB64 encoding with real-time analysis and step-by-step process visualization"
 ---
 
-TLDR: This interactive demo is your personal QuadB64 sandbox! Type in any text, tweak the settings, and watch in real-time as QuadB64 transforms it into a position-safe code. It's like having a transparent X-ray machine for your data, revealing the magic behind its unique encoding.
+> This interactive demo is your personal QuadB64 sandbox! Type in any text, tweak the settings, and watch in real-time as QuadB64 transforms it into a position-safe code. It's like having a transparent X-ray machine for your data, revealing the magic behind its unique encoding.
 
 # Interactive QuadB64 Encoder/Decoder
 

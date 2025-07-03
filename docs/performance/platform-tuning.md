@@ -6,7 +6,7 @@ nav_order: 3
 description: "Detailed optimization strategies for different operating systems, CPU architectures, and cloud environments to maximize QuadB64 performance."
 ---
 
-TLDR: This guide helps you supercharge QuadB64 by fine-tuning it for your specific computer, operating system, and even cloud environment. It's like giving your high-performance sports car a custom engine tune-up for every different race track, ensuring maximum speed and efficiency wherever you deploy it.
+> This guide helps you supercharge QuadB64 by fine-tuning it for your specific computer, operating system, and even cloud environment. It's like giving your high-performance sports car a custom engine tune-up for every different race track, ensuring maximum speed and efficiency wherever you deploy it.
 
 # Platform-Specific Performance Tuning
 

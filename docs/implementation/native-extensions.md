@@ -6,7 +6,7 @@ nav_order: 2
 description: "Guide to QuadB64's native extensions written in Rust and C++, covering architecture, compilation, optimization techniques, and platform-specific considerations."
 ---
 
-TLDR: This guide is your deep dive into how QuadB64 achieves its incredible speed. It's all thanks to highly optimized native code (mostly Rust!) that talks directly to your computer's hardware, making encoding and decoding operations blazingly fast. Think of it as the turbocharger for your data.
+> This guide is your deep dive into how QuadB64 achieves its incredible speed. It's all thanks to highly optimized native code (mostly Rust!) that talks directly to your computer's hardware, making encoding and decoding operations blazingly fast. Think of it as the turbocharger for your data.
 
 # Native Extensions Guide
 

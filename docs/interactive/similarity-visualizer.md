@@ -6,7 +6,7 @@ nav_order: 3
 description: "Interactive tool for visualizing how QuadB64 variants preserve similarity relationships while preventing substring pollution"
 ---
 
-TLDR: This tool is like a magic lens that lets you see how QuadB64 keeps your data's relationships intact, even after encoding. It shows you that similar things stay similar, and unrelated things don't accidentally look alike, making your search and AI systems much smarter.
+> This tool is like a magic lens that lets you see how QuadB64 keeps your data's relationships intact, even after encoding. It shows you that similar things stay similar, and unrelated things don't accidentally look alike, making your search and AI systems much smarter.
 
 # Similarity Visualizer
 

@@ -6,7 +6,7 @@ nav_order: 1
 description: "Explore cutting-edge research directions for QuadB64, including Matryoshka embeddings integration, quantum computing applications, and next-generation encoding techniques representing the frontier of position-safe encoding research."
 ---
 
-TLDR: This chapter dives into the bleeding edge of QuadB64 research, exploring how it can team up with futuristic tech like Matryoshka embeddings and quantum computing. It's all about pushing the boundaries of position-safe encoding to solve tomorrow's data challenges today.
+> This chapter dives into the bleeding edge of QuadB64 research, exploring how it can team up with futuristic tech like Matryoshka embeddings and quantum computing. It's all about pushing the boundaries of position-safe encoding to solve tomorrow's data challenges today.
 
 # Research Directions and Future Work
 

@@ -5,7 +5,7 @@ nav_order: 5
 description: "Complete API documentation for the UUBED library, including all encoding functions, classes, and utilities."
 ---
 
-TLDR: This is your go-to guide for all the buttons and levers in the QuadB64 library. It tells you exactly how to use the `encode` and `decode` functions, what different encoding methods do, and how to make sure everything runs smoothly.
+> This is your go-to guide for all the buttons and levers in the QuadB64 library. It tells you exactly how to use the `encode` and `decode` functions, what different encoding methods do, and how to make sure everything runs smoothly.
 
 # API Reference
 

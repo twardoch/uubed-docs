@@ -6,7 +6,7 @@ nav_order: 5
 description: "Comprehensive visual guide to QuadB64 concepts through diagrams, flowcharts, and architectural visualizations that illustrate core concepts and implementation details."
 ---
 
-TLDR: This guide uses pictures, flowcharts, and graphs to explain how QuadB64 works, from how it rotates alphabets to how it handles data and speeds things up. It's like a comic book for data encoding, making complex ideas easy to understand.
+> This guide uses pictures, flowcharts, and graphs to explain how QuadB64 works, from how it rotates alphabets to how it handles data and speeds things up. It's like a comic book for data encoding, making complex ideas easy to understand.
 
 # Visual Guide: QuadB64 Encoding Schemes
 

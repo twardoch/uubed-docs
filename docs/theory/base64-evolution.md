@@ -6,7 +6,7 @@ nav_order: 3
 description: "The journey from Base64 to QuadB64, examining why Base64 succeeded for decades and why it now needs to evolve for modern AI-scale search systems."
 ---
 
-TLDR: Base64 was great for its time, like a trusty old horse-drawn carriage. But in today's super-fast, AI-driven world, it's causing traffic jams and confusion, especially in search engines. QuadB64 is the modern, high-tech solution that fixes these problems by making data smarter and searches cleaner.
+> Base64 was great for its time, like a trusty old horse-drawn carriage. But in today's super-fast, AI-driven world, it's causing traffic jams and confusion, especially in search engines. QuadB64 is the modern, high-tech solution that fixes these problems by making data smarter and searches cleaner.
 
 # The Evolution from Base64 to QuadB64
 

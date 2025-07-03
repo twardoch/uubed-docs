@@ -6,7 +6,7 @@ has_children: true
 description: "Advanced topics, research applications, and cutting-edge use cases for QuadB64 encodings."
 ---
 
-TLDR: This section is where we dive deep into the really cool, cutting-edge stuff with QuadB64. If you're looking to push the boundaries of what's possible with position-safe encoding, explore new research, or build highly customized solutions, you've come to the right place.
+> This section is where we dive deep into the really cool, cutting-edge stuff with QuadB64. If you're looking to push the boundaries of what's possible with position-safe encoding, explore new research, or build highly customized solutions, you've come to the right place.
 
 # Advanced Topics
 

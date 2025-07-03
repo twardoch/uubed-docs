@@ -5,7 +5,7 @@ nav_order: 2
 description: "Get up and running with QuadB64 in minutes. This guide covers installation, basic usage, and common integration patterns."
 ---
 
-TLDR: This guide is your fast track to using QuadB64. It shows you how to install it, encode and decode data, and why it's way better than old-school Base64 for modern search. Get ready to make your data smarter and your searches cleaner!
+> This guide is your fast track to using QuadB64. It shows you how to install it, encode and decode data, and why it's way better than old-school Base64 for modern search. Get ready to make your data smarter and your searches cleaner!
 
 # Quick Start Guide
 

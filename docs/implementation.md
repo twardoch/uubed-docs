@@ -6,7 +6,7 @@ has_children: true
 description: "Implementation details, architecture, and advanced features of the QuadB64 library."
 ---
 
-TLDR: This section is your technical deep dive into how QuadB64 actually works under the hood. It covers everything from its core design principles and high-performance native code to advanced features and memory management. If you're a developer who loves to understand the nitty-gritty, this is your playground.
+> This section is your technical deep dive into how QuadB64 actually works under the hood. It covers everything from its core design principles and high-performance native code to advanced features and memory management. If you're a developer who loves to understand the nitty-gritty, this is your playground.
 
 # Implementation Guide
 

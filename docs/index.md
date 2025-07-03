@@ -6,7 +6,7 @@ description: "Position-Safe Encoding for Substring-Based Search Systems - A comp
 permalink: /
 ---
 
-TLDR: Welcome to the ultimate guide for QuadB64, the encoding that fixes search engines! If you're tired of irrelevant results because of messy data, this is your new best friend. It's like giving your data a unique, unforgeable ID card that also tells you exactly where it belongs.
+> Welcome to the ultimate guide for QuadB64, the encoding that fixes search engines! If you're tired of irrelevant results because of messy data, this is your new best friend. It's like giving your data a unique, unforgeable ID card that also tells you exactly where it belongs.
 
 # The QuadB64 Codex
 

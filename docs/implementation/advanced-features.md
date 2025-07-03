@@ -6,7 +6,7 @@ nav_order: 3
 description: "Sophisticated usage patterns, troubleshooting techniques, and advanced configuration options for power users and system integrators working with QuadB64 in complex environments."
 ---
 
-TLDR: This chapter is your deep dive into the secret sauce of QuadB64: how to customize it, squeeze every drop of performance out of it, and troubleshoot like a pro. It's like getting the master key to the QuadB64 engine room, allowing you to fine-tune it for any mission, no matter how complex.
+> This chapter is your deep dive into the secret sauce of QuadB64: how to customize it, squeeze every drop of performance out of it, and troubleshoot like a pro. It's like getting the master key to the QuadB64 engine room, allowing you to fine-tune it for any mission, no matter how complex.
 
 # Advanced Features and Configuration
 

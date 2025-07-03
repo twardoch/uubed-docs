@@ -6,7 +6,7 @@ nav_order: 1
 description: "Interactive playground for experimenting with QuadB64 encoding and comparing position-dependent alphabets"
 ---
 
-TLDR: This interactive playground is your personal laboratory for QuadB64. Experiment with different data, see how position-dependent alphabets work their magic, and witness firsthand how QuadB64 eliminates substring pollution. It's like a sandbox for data encoding, but way more productive.
+> This interactive playground is your personal laboratory for QuadB64. Experiment with different data, see how position-dependent alphabets work their magic, and witness firsthand how QuadB64 eliminates substring pollution. It's like a sandbox for data encoding, but way more productive.
 
 # QuadB64 Interactive Encoding Playground
 

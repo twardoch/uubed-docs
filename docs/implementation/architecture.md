@@ -6,7 +6,7 @@ nav_order: 1
 description: "Deep dive into the technical implementation of the QuadB64 encoding system, covering core algorithms, native extensions, and performance optimization strategies."
 ---
 
-TLDR: This chapter is your blueprint for understanding how QuadB64 is built from the ground up. It covers everything from the core algorithms that make it tick to how it uses super-fast native code and smart memory management to deliver top-notch performance. It's the technical deep dive for those who want to know exactly how the magic happens.
+> This chapter is your blueprint for understanding how QuadB64 is built from the ground up. It covers everything from the core algorithms that make it tick to how it uses super-fast native code and smart memory management to deliver top-notch performance. It's the technical deep dive for those who want to know exactly how the magic happens.
 
 # Implementation Architecture
 

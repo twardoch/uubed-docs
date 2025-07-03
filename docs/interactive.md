@@ -6,7 +6,7 @@ has_children: true
 description: "Interactive demos, calculators, and visualization tools for exploring QuadB64 encodings hands-on."
 ---
 
-TLDR: This section is your hands-on playground for QuadB64! Dive into interactive demos, calculators, and visualizers to truly grasp how position-safe encoding works, how it performs, and how it solves real-world data problems. It's learning by doing, but with more digital magic.
+> This section is your hands-on playground for QuadB64! Dive into interactive demos, calculators, and visualizers to truly grasp how position-safe encoding works, how it performs, and how it solves real-world data problems. It's learning by doing, but with more digital magic.
 
 # Interactive Tools & Demos
 

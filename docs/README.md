@@ -5,7 +5,7 @@ exclude: true
 description: "Development documentation for the UUBED documentation site"
 ---
 
-TLDR: This is the main hub for the UUBED documentation website. It's built with Jekyll and designed for GitHub Pages, making it easy to develop locally and deploy automatically. Think of it as the instruction manual for building the instruction manual!
+> This is the main hub for the UUBED documentation website. It's built with Jekyll and designed for GitHub Pages, making it easy to develop locally and deploy automatically. Think of it as the instruction manual for building the instruction manual!
 
 # UUBED Documentation Site
 
