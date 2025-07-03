@@ -1,7 +1,9 @@
 ---
-layout: page
 title: Installation Guide
-description: How to install UUBED on your system
+keywords: installation, setup, requirements, dependencies
+sidebar: home_sidebar
+permalink: installation.html
+summary: Comprehensive installation guide for UUBED, including system requirements, dependencies, and platform-specific instructions.
 ---
 
 # Installation Guide

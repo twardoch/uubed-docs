@@ -1,7 +1,9 @@
 ---
-layout: page
 title: API Reference
-description: Complete API documentation for UUBED
+keywords: api, reference, documentation, functions, classes
+sidebar: home_sidebar
+permalink: api.html
+summary: Complete API documentation for the UUBED library, including all encoding functions, classes, and utilities.
 ---
 
 # API Reference

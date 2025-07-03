@@ -1,7 +1,10 @@
 ---
-layout: page
 title: QuadB64 Encoding Family
-description: Overview of all encoding methods in the QuadB64 family
+keywords: encoding, family, eq64, shq64, t8q64, zoq64
+sidebar: family_sidebar
+permalink: family_index.html
+folder: family
+summary: Overview of all encoding methods in the QuadB64 family, their characteristics, and use cases.
 ---
 
 # QuadB64 Encoding Family

@@ -1,3 +1,12 @@
+---
+title: Introduction - The Substring Pollution Problem
+keywords: theory, substring pollution, base64, search
+sidebar: theory_sidebar
+permalink: theory_introduction.html
+folder: theory
+summary: Understanding the hidden cost of Base64 in modern search systems and how QuadB64 solves the substring pollution problem.
+---
+
 # Chapter 1: Introduction - The Substring Pollution Problem
 
 ## The Hidden Cost of Base64 in Modern Search Systems

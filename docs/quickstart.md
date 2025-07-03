@@ -1,7 +1,9 @@
 ---
-layout: page
 title: Quick Start Guide
-description: Get started with UUBED in minutes
+keywords: quickstart, installation, setup, getting started
+sidebar: home_sidebar
+permalink: quickstart.html
+summary: Get up and running with QuadB64 in minutes. This guide covers installation, basic usage, and common integration patterns.
 ---
 
 # Quick Start Guide

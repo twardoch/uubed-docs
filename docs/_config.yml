@@ -1,6 +1,81 @@
-title: UUBED Documentation
-description: High-performance, position-safe embedding encoding library
+title: The QuadB64 Codex
+description: Position-Safe Encoding for Substring-Based Search Systems
 baseurl: "/uubed-docs"
 url: "https://twardoch.github.io"
 repository: twardoch/uubed-docs
-theme: jekyll-theme-cayman
+
+# Use the documentation theme
+remote_theme: tomjoht/documentation-theme-jekyll
+
+# Plugins
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Theme settings
+topnav_title: QuadB64 Codex
+site_title: QuadB64 Documentation
+company_name: UUBED Project
+github_editme_path: twardoch/uubed-docs/blob/main/docs/
+google_analytics: 
+disqus_shortname: 
+search: true
+
+# Sidebar configuration
+sidebars:
+- home_sidebar
+- theory_sidebar
+- family_sidebar
+- implementation_sidebar
+
+# Output
+permalink: pretty
+output: web
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+highlighter: rouge
+
+# Collections
+collections:
+  tooltips:
+    output: false
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      search: true
+      sidebar: home_sidebar
+      topnav: topnav
+  - scope:
+      path: "theory"
+      type: "pages"
+    values:
+      sidebar: theory_sidebar
+  - scope:
+      path: "family"
+      type: "pages"
+    values:
+      sidebar: family_sidebar
+  - scope:
+      path: "implementation"
+      type: "pages"
+    values:
+      sidebar: implementation_sidebar
+
+# Exclude from build
+exclude:
+- .idea/
+- .gitignore
+- vendor

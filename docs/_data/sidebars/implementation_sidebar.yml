@@ -1,0 +1,67 @@
+entries:
+- title: Implementation
+  product: QuadB64 Implementation
+  version: 
+  folders:
+
+  - title: Overview
+    output: web
+    folderitems:
+    - title: Back to Home
+      url: /index
+      output: web
+    - title: Architecture Overview
+      url: /implementation/architecture
+      output: web
+
+  - title: Core Implementation
+    output: web
+    folderitems:
+    - title: System Architecture
+      url: /implementation/architecture
+      output: web
+    - title: Native Extensions
+      url: /implementation/native-extensions
+      output: web
+    - title: Advanced Features
+      url: /implementation/advanced-features
+      output: web
+
+  - title: Language Bindings
+    output: web
+    folderitems:
+    - title: Python Implementation
+      url: /implementation/python
+      output: web
+    - title: Rust Core
+      url: /implementation/rust
+      output: web
+    - title: C Extensions
+      url: /implementation/c-extensions
+      output: web
+
+  - title: Performance
+    output: web
+    folderitems:
+    - title: Optimization Guide
+      url: /performance/optimization
+      output: web
+    - title: Platform Tuning
+      url: /performance/platform-tuning
+      output: web
+    - title: SIMD Support
+      url: /implementation/simd
+      output: web
+
+  - title: Development
+    output: web
+    folderitems:
+    - title: Build System
+      url: /implementation/build
+      output: web
+    - title: Testing Strategy
+      url: /implementation/testing
+      output: web
+    - title: Contributing
+      url: /contributing/guidelines
+      output: web

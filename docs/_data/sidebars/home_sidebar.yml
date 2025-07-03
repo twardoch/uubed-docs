@@ -1,0 +1,128 @@
+entries:
+- title: sidebar
+  product: QuadB64 Codex
+  version: 
+  folders:
+
+  - title: Getting Started
+    output: web
+    folderitems:
+    - title: Home
+      url: /index
+      output: web
+      type: homepage
+    - title: Quick Start
+      url: /quickstart
+      output: web
+    - title: Installation
+      url: /installation
+      output: web
+    - title: Basic Usage
+      url: /basic-usage
+      output: web
+
+  - title: API Reference
+    output: web
+    folderitems:
+    - title: API Overview
+      url: /api
+      output: web
+    - title: Python API
+      url: /reference/python-api
+      output: web
+    - title: Rust API
+      url: /reference/rust-api
+      output: web
+
+  - title: Theory & Concepts
+    output: web
+    folderitems:
+    - title: Introduction
+      url: /theory/introduction
+      output: web
+    - title: QuadB64 Fundamentals
+      url: /theory/quadb64-fundamentals
+      output: web
+    - title: Base64 Evolution
+      url: /theory/base64-evolution
+      output: web
+    - title: Locality Preservation
+      url: /theory/locality-preservation
+      output: web
+    - title: Visual Diagrams
+      url: /theory/visual-diagrams
+      output: web
+
+  - title: Encoding Family
+    output: web
+    folderitems:
+    - title: Overview
+      url: /family/
+      output: web
+    - title: Eq64 Encoding
+      url: /family/eq64
+      output: web
+    - title: Shq64 Encoding
+      url: /family/shq64
+      output: web
+    - title: T8q64 Encoding
+      url: /family/t8q64
+      output: web
+    - title: Zoq64 Encoding
+      url: /family/zoq64
+      output: web
+
+  - title: Interactive Tools
+    output: web
+    folderitems:
+    - title: Encoding Playground
+      url: /interactive/encoding-playground
+      output: web
+    - title: Encoder Demo
+      url: /interactive/encoder-demo
+      output: web
+    - title: Similarity Visualizer
+      url: /interactive/similarity-visualizer
+      output: web
+    - title: Performance Calculator
+      url: /interactive/performance-calculator
+      output: web
+    - title: Comparison Tables
+      url: /interactive/comparison-tables
+      output: web
+
+  - title: Implementation
+    output: web
+    folderitems:
+    - title: Architecture
+      url: /implementation/architecture
+      output: web
+    - title: Native Extensions
+      url: /implementation/native-extensions
+      output: web
+    - title: Advanced Features
+      url: /implementation/advanced-features
+      output: web
+
+  - title: Performance
+    output: web
+    folderitems:
+    - title: Optimization Guide
+      url: /performance/optimization
+      output: web
+    - title: Platform Tuning
+      url: /performance/platform-tuning
+      output: web
+    - title: Benchmarks
+      url: /reference/benchmarks
+      output: web
+
+  - title: Applications
+    output: web
+    folderitems:
+    - title: Use Cases
+      url: /applications/overview
+      output: web
+    - title: Research
+      url: /advanced/research
+      output: web

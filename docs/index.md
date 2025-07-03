@@ -1,7 +1,9 @@
 ---
-layout: default
 title: The QuadB64 Codex
-description: Position-Safe Encoding for Substring-Based Search Systems
+keywords: quadb64, encoding, position-safe, search, embedding
+sidebar: home_sidebar
+permalink: index.html
+summary: Position-Safe Encoding for Substring-Based Search Systems - A comprehensive guide to the QuadB64 encoding family and the uubed library.
 ---
 
 # The QuadB64 Codex
