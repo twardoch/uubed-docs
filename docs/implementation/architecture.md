@@ -1,3 +1,11 @@
+---
+layout: default
+title: Implementation Architecture
+parent: Implementation
+nav_order: 1
+description: "Deep dive into the technical implementation of the QuadB64 encoding system, covering core algorithms, native extensions, and performance optimization strategies."
+---
+
 # Implementation Architecture
 
 ## Overview

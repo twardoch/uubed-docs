@@ -1,3 +1,11 @@
+---
+layout: default
+title: Native Extensions Guide
+parent: Implementation
+nav_order: 2
+description: "Guide to QuadB64's native extensions written in Rust and C++, covering architecture, compilation, optimization techniques, and platform-specific considerations."
+---
+
 # Native Extensions Guide
 
 ## Overview
