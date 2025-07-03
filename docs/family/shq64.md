@@ -1,3 +1,12 @@
+---
+title: "Shq64: SimHash Variant for Similarity Preservation"
+keywords: shq64, encoding, simhash, similarity
+sidebar: family_sidebar
+permalink: family_shq64.html
+folder: family
+summary: Shq64 (SimHash QuadB64) provides compact, similarity-preserving hash encoding with position safety and fixed-length output.
+---
+
 # Shq64: SimHash Variant for Similarity Preservation
 
 ## Overview

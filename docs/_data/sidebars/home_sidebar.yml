@@ -60,16 +60,16 @@ entries:
       url: /family/index
       output: web
     - title: Eq64 Encoding
-      url: /family/eq64
+      url: /family_eq64
       output: web
     - title: Shq64 Encoding
-      url: /family/shq64
+      url: /family_shq64
       output: web
     - title: T8q64 Encoding
-      url: /family/t8q64
+      url: /family_t8q64
       output: web
     - title: Zoq64 Encoding
-      url: /family/zoq64
+      url: /family_zoq64
       output: web
 
   - title: Interactive Tools

@@ -1,3 +1,12 @@
+---
+title: Zoq64 - Z-order Curve Encoding for Spatial Locality
+keywords: zoq64, z-order curve, morton curve, spatial encoding, geospatial, multi-dimensional, spatial locality, position safe, spatial indexing
+sidebar: family_sidebar
+permalink: family_zoq64.html
+folder: family
+summary: Zoq64 is a spatial encoding scheme that preserves multi-dimensional locality through Z-order curve mapping, transforming spatial data into position-safe strings where nearby points remain close in the encoded representation.
+---
+
 # Zoq64: Z-order Curve Encoding for Spatial Locality
 
 ## Overview

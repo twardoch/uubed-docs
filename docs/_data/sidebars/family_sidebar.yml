@@ -18,16 +18,16 @@ entries:
     output: web
     folderitems:
     - title: Eq64 - Embeddings
-      url: /family/eq64
+      url: /family_eq64
       output: web
     - title: Shq64 - SimHash
-      url: /family/shq64
+      url: /family_shq64
       output: web
     - title: T8q64 - Top-k Index
-      url: /family/t8q64
+      url: /family_t8q64
       output: web
     - title: Zoq64 - Z-order Curve
-      url: /family/zoq64
+      url: /family_zoq64
       output: web
 
   - title: Comparisons
