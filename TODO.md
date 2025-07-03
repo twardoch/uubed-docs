@@ -15,16 +15,14 @@
 
 ## Documentation Build Issues (from `mkdocs build`)
 
-### Warnings
-- [ ] `SyntaxWarning: invalid escape sequence` in `jieba` and `material` plugins.
-- [ ] `DeprecationWarning: Setting a fallback anchor function is deprecated`.
-- [ ] `Excluding 'README.md' from the site because it conflicts with 'index.md'.`
-- [ ] Pages exist in `docs` but are not included in `nav` configuration (e.g., `404.md`, `advanced.md`, `applications.md`, etc.).
-- [ ] References in `nav` configuration not found in documentation files (e.g., `applications/search-engines.md`, `reference/configuration.md`, etc.).
-- [ ] Doc file links to targets not found among documentation files (e.g., `index.md` links to `contributing/guidelines.md`, `basic-usage.md` links to `advanced-features.md`).
-- [ ] Doc files contain unrecognized relative links (multiple occurrences in `404.md`, `advanced.md`, `applications.md`, `implementation.md`, `interactive.md`, `performance.md`, `family/index.md`, `theory/index.md`).
-- [ ] Doc file `reference/benchmarks.md` contains an absolute link.
-- [ ] Investigate and resolve `SyntaxWarning` and `DeprecationWarning` messages during build.
-- [ ] Address `README.md` conflict with `index.md`.
-- [ ] Ensure all relevant pages are included in the `nav` configuration.
-- [ ] Fix all broken and unrecognized links in documentation files.
+### Build Status: Multiple warnings during build process
+- [ ] `DeprecationWarning: Setting a fallback anchor function is deprecated` - mkdocstrings plugin issue
+- [ ] `Excluding 'README.md' from the site because it conflicts with 'index.md'` - file conflict
+- [ ] 8 pages exist in docs but not included in nav configuration (404.md, advanced.md, applications.md, implementation.md, interactive.md, news.md, performance.md, family/index.md, theory/index.md)
+- [ ] 9 references in nav configuration not found in documentation files (applications/*.md, reference/configuration.md, implementation/custom-variants.md, contributing/*.md)
+- [ ] Multiple broken links in documentation files (contributing/guidelines.md, advanced-features.md, integration/overview.md)
+- [ ] 30+ unrecognized relative links across multiple files (404.md, advanced.md, applications.md, etc.)
+- [ ] 1 absolute link in reference/benchmarks.md that should be relative
+- [ ] Address `README.md` conflict with `index.md`
+- [ ] Fix navigation configuration to match actual file structure
+- [ ] Resolve all broken and unrecognized links

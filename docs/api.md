@@ -174,3 +174,110 @@ try:
 except ValueError as e:
     print(f"Decoding error: {e}")
 ```
+
+## Low-Level Q64 Codec
+
+### `q64_encode(data_bytes)`
+
+Base Q64 encoding without dots. Used internally by other encoders.
+
+**Parameters:**
+- `data_bytes` (bytes): Raw bytes to encode
+
+**Returns:**
+- `str`: Q64 encoded string
+
+**Example:**
+```python
+from uubed.encoders.q64 import q64_encode
+
+encoded = q64_encode(b"Hello World")
+```
+
+### `q64_decode(encoded_string)`
+
+Base Q64 decoding.
+
+**Parameters:**
+- `encoded_string` (str): Q64 encoded string
+
+**Returns:**
+- `bytes`: Decoded bytes
+
+**Example:**
+```python
+from uubed.encoders.q64 import q64_decode
+
+decoded = q64_decode(encoded_string)
+```
+
+## Module-Level Imports
+
+### Encoder Modules
+
+Each encoding method has its own module with specialized functions:
+
+```python
+# Eq64 (Full Precision)
+from uubed.encoders.eq64 import eq64_encode, eq64_decode
+
+# Shq64 (SimHash)
+from uubed.encoders.shq64 import simhash_q64
+
+# T8q64 (Top-k)
+from uubed.encoders.t8q64 import top_k_q64
+
+# Zoq64 (Z-order)
+from uubed.encoders.zoq64 import z_order_q64
+```
+
+### Constants
+
+```python
+from uubed.encoders.q64 import Q64_ALPHABETS, Q64_REVERSE
+
+# Position-dependent alphabets
+print(Q64_ALPHABETS[0])  # 'ABCD...XYZ'  (uppercase)
+print(Q64_ALPHABETS[1])  # 'abcd...xyz'  (lowercase)
+print(Q64_ALPHABETS[2])  # 'AaBb...YyZz' (mixed case)
+print(Q64_ALPHABETS[3])  # '0123...+/-_' (digits/symbols)
+
+# Reverse lookup table for decoding
+char_value = Q64_REVERSE[position][character]
+```
+
+## Type Hints
+
+UUBED provides comprehensive type hints for better IDE support:
+
+```python
+from typing import Union, Literal
+import numpy as np
+from numpy.typing import NDArray
+
+def encode(
+    embedding: Union[NDArray[np.float32], list, bytes],
+    method: Literal["auto", "eq64", "shq64", "t8q64", "zoq64"] = "auto",
+    validate: bool = True
+) -> str: ...
+```
+
+## Native Module Detection
+
+```python
+import uubed
+
+if uubed._has_native:
+    print("Native Rust acceleration available")
+else:
+    print("Using pure Python implementation")
+```
+
+You can also use:
+
+```python
+from uubed.native_wrapper import is_native_available
+
+if is_native_available():
+    print("Rust acceleration enabled!")
+```
