@@ -7,6 +7,8 @@ folder: family
 summary: Zoq64 is a spatial encoding scheme that preserves multi-dimensional locality through Z-order curve mapping, transforming spatial data into position-safe strings where nearby points remain close in the encoded representation.
 ---
 
+TLDR: Zoq64 is like a super-smart librarian for your location data. It takes complex multi-dimensional information (like latitude, longitude, and even altitude) and turns it into a simple, searchable string. The magic is that points close to each other in the real world stay close in their encoded string, making it incredibly fast to find nearby places without getting lost in a sea of irrelevant data.
+
 # Zoq64: Z-order Curve Encoding for Spatial Locality
 
 ## Overview

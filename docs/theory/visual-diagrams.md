@@ -1,4 +1,10 @@
+TLDR: This guide uses pictures, flowcharts, and graphs to explain how QuadB64 works, from how it rotates alphabets to how it handles data and speeds things up. It's like a comic book for data encoding, making complex ideas easy to understand.
+
 # Visual Guide: QuadB64 Encoding Schemes
+
+Imagine you're trying to explain how a complex machine works, but instead of just talking, you have a giant transparent model where you can see all the gears turning and the levers moving. This guide is that transparent model for QuadB64, showing you the inner workings with clear, colorful diagrams.
+
+Imagine you're a cartographer, and instead of just listing coordinates, you're drawing beautiful, intricate maps that show how every piece of data connects and flows. This guide is your atlas to the QuadB64 universe, illustrating its landscapes and pathways.
 
 ## Overview
 

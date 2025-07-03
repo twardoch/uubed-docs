@@ -6,7 +6,15 @@ permalink: api.html
 summary: Complete API documentation for the UUBED library, including all encoding functions, classes, and utilities.
 ---
 
+TLDR: This is your go-to guide for all the buttons and levers in the QuadB64 library. It tells you exactly how to use the `encode` and `decode` functions, what different encoding methods do, and how to make sure everything runs smoothly.
+
 # API Reference
+
+Imagine you have a universal remote control for all your data encoding needs. This API reference is the instruction manual for that remote, explaining what each button does and how to combine them for the best results. 
+
+Imagine you're a chef, and QuadB64 is your kitchen. This API is your recipe book, detailing every ingredient (parameters), every cooking method (encoding methods), and how to combine them to create delicious, perfectly encoded data dishes.
+
+## Main Functions
 
 ## Main Functions
 

@@ -7,6 +7,8 @@ folder: reference
 summary: Comprehensive performance benchmarks comparing QuadB64 encodings with standard Base64 and other encoding schemes.
 ---
 
+TLDR: This page is all about how fast QuadB64 is! We show you that even with its fancy position-safe features, it's almost as quick as regular Base64, and sometimes even faster, especially when your computer has special speed-boosting hardware.
+
 # Performance Benchmarks
 
 ## Overview

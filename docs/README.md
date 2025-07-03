@@ -1,4 +1,10 @@
+TLDR: This is the main hub for the UUBED documentation website. It's built with Jekyll and designed for GitHub Pages, making it easy to develop locally and deploy automatically. Think of it as the instruction manual for building the instruction manual!
+
 # UUBED Documentation Site
+
+Imagine this directory is the blueprint for a magnificent library. Every file here is a detailed instruction, from how the shelves are built (`_layouts/`) to where the books are stored (`_config.yml`). It's all designed to make sure our knowledge is beautifully presented and easily accessible.
+
+Imagine you're a master chef, and this directory is your recipe book for creating the perfect documentation feast. Each section tells you how to prepare the ingredients, cook the dishes, and even how to serve them up for the world to enjoy.
 
 This directory contains the Jekyll-based documentation for UUBED, configured to work with GitHub Pages.
 

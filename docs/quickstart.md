@@ -6,7 +6,13 @@ permalink: quickstart.html
 summary: Get up and running with QuadB64 in minutes. This guide covers installation, basic usage, and common integration patterns.
 ---
 
+TLDR: This guide is your fast track to using QuadB64. It shows you how to install it, encode and decode data, and why it's way better than old-school Base64 for modern search. Get ready to make your data smarter and your searches cleaner!
+
 # Quick Start Guide
+
+Imagine you've just bought a new, super-fast, anti-clutter vacuum cleaner. This guide is the quick-start manual that gets you cleaning up your data messes in minutes, showing you how to plug it in, turn it on, and see the magic happen. 
+
+Imagine you're a secret agent, and your mission is to transmit sensitive data without leaving any traceable fingerprints. This guide is your briefing, teaching you the basics of QuadB64, your new top-secret encoding technique that ensures your data is safe from accidental exposure and always finds its true target.
 
 Get up and running with QuadB64 in minutes! This guide covers installation, basic usage, and common integration patterns.
 

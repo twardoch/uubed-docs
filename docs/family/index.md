@@ -7,6 +7,8 @@ folder: family
 summary: Overview of all encoding methods in the QuadB64 family, their characteristics, and use cases.
 ---
 
+TLDR: The QuadB64 family is like a superhero team of encodings, each with a unique power to solve specific data problems while always preventing accidental matches. Whether you need to perfectly preserve data, find similar items, or map locations, there's a QuadB64 hero for the job.
+
 # QuadB64 Encoding Family
 
 The QuadB64 family consists of multiple encoding schemes, each optimized for specific use cases:
