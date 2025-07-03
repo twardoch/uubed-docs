@@ -1,20 +1,4 @@
-# Site settings
 title: UUBED Documentation
 description: High-performance, position-safe embedding encoding library
 baseurl: "/uubed-docs"
-url: "https://twardoch.github.io"
-
-# Build settings
 theme: jekyll-theme-cayman
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-
-# Exclude from processing
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - README.md
-  - requirements.txt
-  - mkdocs.yml
-  - _tools/
