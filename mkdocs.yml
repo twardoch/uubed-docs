@@ -70,22 +70,27 @@ nav:
     - Installation: installation.md
     - Basic Usage: basic-usage.md
   - Theory:
+    - Overview: theory/index.md
     - Introduction: theory/introduction.md
     - Base64 Evolution: theory/base64-evolution.md
     - QuadB64 Fundamentals: theory/quadb64-fundamentals.md
     - Locality Preservation: theory/locality-preservation.md
     - Visual Diagrams: theory/visual-diagrams.md
   - QuadB64 Family:
-    - Overview: family/overview.md
+    - Overview: family/index.md
+    - Detailed Guide: family/overview.md
     - Eq64: family/eq64.md
     - Shq64: family/shq64.md
     - T8q64: family/t8q64.md
     - Zoq64: family/zoq64.md
+    - Mq64: family/mq64.md
   - Performance:
+    - Overview: performance.md
     - Optimization Guide: performance/optimization.md
     - Benchmarks & Comparisons: reference/benchmarks.md
     - Platform-Specific Tuning: performance/platform-tuning.md
   - Applications:
+    - Overview: applications.md
     - Real-World Examples: applications/overview.md
     - Search Engines: applications/search-engines.md
     - Vector Databases: applications/vector-databases.md
@@ -96,18 +101,32 @@ nav:
     - Migration from Base64: reference/migration.md
     - Configuration Options: reference/configuration.md
     - Troubleshooting: reference/troubleshooting.md
+    - Python Troubleshooting: reference/python-troubleshooting.md
+    - Glossary: reference/glossary.md
+    - Comparison Tables: reference/comparison-tables.md
   - Interactive:
+    - Overview: interactive.md
     - Encoding Playground: interactive/encoding-playground.md
+    - Encoder Demo: interactive/encoder-demo.md
+    - Performance Calculator: interactive/performance-calculator.md
+    - Similarity Visualizer: interactive/similarity-visualizer.md
     - Comparison Tables: interactive/comparison-tables.md
   - Advanced:
+    - Overview: advanced.md
     - Implementation Details: implementation/architecture.md
+    - Advanced Features: implementation/advanced-features.md
     - Native Extensions: implementation/native-extensions.md
     - Custom Variants: implementation/custom-variants.md
     - Research & Future Work: advanced/research.md
   - Contributing:
+    - Overview: contributing.md
     - Development Setup: contributing/setup.md
     - Guidelines: contributing/guidelines.md
     - Code of Conduct: contributing/code-of-conduct.md
+  - Library Integration:
+    - Python Library: python-library.md
+    - Implementation Guide: implementation.md
+  - News & Updates: news.md
 
 plugins:
   - search:
