@@ -75,6 +75,23 @@ docs/_build/
 .tox/
 .nox/
 
+# Release artifacts
+release/
+*.tar.gz
+*.zip
+*.sha256
+version-info.txt
+
+# Testing
+.pytest_cache/
+
+# Security
+*.key
+*.pem
+*.crt
+.env.local
+.env.*.local
+
 # Backup files
 *~
 *.bak

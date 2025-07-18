@@ -1,0 +1,158 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Tag to release'
+        required: true
+        default: 'v0.1.0'
+
+jobs:
+  create-release:
+    name: Create Release
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+    
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        pip install pytest pyyaml
+    
+    - name: Get version information
+      run: |
+        python version.py --info
+        echo "VERSION=$(python version.py)" >> $GITHUB_ENV
+        echo "RELEASE_TAG=${GITHUB_REF#refs/tags/}" >> $GITHUB_ENV
+    
+    - name: Run tests
+      run: |
+        ./test.sh
+    
+    - name: Build documentation
+      run: |
+        ./build.sh
+    
+    - name: Create release artifacts
+      run: |
+        ./release.sh
+    
+    - name: Create GitHub Release
+      uses: softprops/action-gh-release@v1
+      with:
+        tag_name: ${{ env.RELEASE_TAG }}
+        name: Release ${{ env.RELEASE_TAG }}
+        body: |
+          ## 🚀 Release ${{ env.RELEASE_TAG }}
+          
+          ### 📖 Documentation Release
+          This release contains the built documentation for uubed-docs version ${{ env.VERSION }}.
+          
+          ### 📦 Assets
+          - **Source Code**: Available as zip and tar.gz
+          - **Documentation Site**: Pre-built static site ready for deployment
+          - **Release Archives**: Compressed documentation site
+          
+          ### 🔧 Version Information
+          - **Version**: ${{ env.VERSION }}
+          - **Build Date**: $(date -u +"%Y-%m-%d %H:%M:%S UTC")
+          - **Git Commit**: ${{ github.sha }}
+          
+          ### 📋 Installation
+          
+          #### Option 1: Download Pre-built Site
+          ```bash
+          wget https://github.com/${{ github.repository }}/releases/download/${{ env.RELEASE_TAG }}/uubed-docs-${{ env.VERSION }}.tar.gz
+          tar -xzf uubed-docs-${{ env.VERSION }}.tar.gz
+          # Serve the site locally
+          python -m http.server 8000 --directory uubed-docs-${{ env.VERSION }}
+          ```
+          
+          #### Option 2: Build from Source
+          ```bash
+          git clone https://github.com/${{ github.repository }}.git
+          cd uubed-docs
+          git checkout ${{ env.RELEASE_TAG }}
+          ./build.sh
+          ```
+          
+          ### 🧪 Testing
+          All tests have passed for this release:
+          - Documentation structure validation
+          - Link checking
+          - Build system tests
+          - Version management tests
+          
+          ---
+          
+          **Full Changelog**: https://github.com/${{ github.repository }}/compare/v0.0.0...${{ env.RELEASE_TAG }}
+        draft: false
+        prerelease: false
+        files: |
+          release/uubed-docs-${{ env.VERSION }}.tar.gz
+          release/uubed-docs-${{ env.VERSION }}.zip
+          release/uubed-docs-${{ env.VERSION }}.tar.gz.sha256
+          release/uubed-docs-${{ env.VERSION }}.zip.sha256
+          release/version-info.txt
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+  deploy-pages:
+    name: Deploy to GitHub Pages
+    runs-on: ubuntu-latest
+    needs: create-release
+    if: github.ref == 'refs/heads/main' || startsWith(github.ref, 'refs/tags/')
+    
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+    
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    
+    - name: Build documentation
+      run: |
+        ./build.sh
+    
+    - name: Setup Pages
+      uses: actions/configure-pages@v4
+    
+    - name: Upload to GitHub Pages
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: site/
+    
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4
